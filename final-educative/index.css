@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: #1D1D1D;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.find:focus {
+    outline: none;
+    
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-underline: none;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: white;
+    text-underline: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+    text-underline: none;
+}
+
+div.scrollup {
+    position: fixed; /* фиксированная позиция */
+    color: #fff; /* цвет текста */
+    background-color: #286090; /* цвет заднего фона */
+    right: 20px; /* расстояние от правого края */
+    bottom: 20px; /* расстояние от нижнего края */
+    padding: 4px 10px; /* отступы до содержимого блока */
+    font-size: 20px; /* размер шрифта (иконки) */
+    border-top-left-radius: 4px; /* скругление верхнего левого угла */
+    border-top-right-radius: 4px; /* скругление верхнего правого угла */
+    cursor: pointer; /* форма курсора */
+    display: block; /* не отображать элемент */
+    text-align: center; /*выравнивание содержимого элемента по центру */
+}
+div.scrollup:hover {
+    background-color: #000; /* цвет заднего фона при наведении */
+}
+
+
